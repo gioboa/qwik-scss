@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import './../global/style/main.scss'
 
 export default component$(() => {
   return (

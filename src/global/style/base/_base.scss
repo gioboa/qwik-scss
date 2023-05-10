@@ -1,0 +1,35 @@
+html
+{
+  @include responsive(desktop)
+  {
+    font-size: 75%;
+  }
+
+  @include responsive(tablet)
+  {
+    font-size: 56.25%;
+  }
+
+  @include responsive(phone)
+  {
+    font-size: 50%;
+  }
+
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body
+{
+  overflow-x: hidden;
+  font-family: sans-serif;
+  font-size: $h6;
+  color: $gray_900;
+  background-color: $gray_300;
+}
+
+a
+{
+  color: $gray_900;
+  text-decoration: none;
+}
